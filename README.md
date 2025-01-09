@@ -111,3 +111,27 @@ Here's an example of the `bettingTiers` section of the JSON with two bets insert
     ],
 ```
 ## Spins
+
+Watch the YouTube video and record the data for every spin to the best of your ability. You should even record spins where no bet is made and spins where Alex does not bet.
+
+You should be recording the following values:
+* `spin` - The sequential number of the spin for the video
+* `number` - The Roulette number that hits
+* `amountBet` - How much Alex bets. If Alex isn't the main bettor, then it is the bet of the main bettor for the video.
+* `result` - The NET win/loss result. This is how much they won or lost AFTER you subtract losses. So if you bet `100` on Black and you win, you would put `100`, not `200`.
+* `time` - This is the timestamp of the FIRST FRAME where the video displays the win or loss. If the spin is not documented, then estimate this as best as possible. It is 10 times better to be 1 second early than it is to be 1 second late...but try to be accurate here.
+* `notes` - This is usually omitted, but be sure to include a note if there are any discrepancies. For example, the video displays -100, but you know the bet was only 50, so that would be impossible. Record the *CORRECT* `result` and `betAmount` to the best of your ability and put any corrections in the `notes` field.
+
+## Create the System Details File
+
+Going back to the `reviewUrl` field, you want to create a file with a similar name in the `/gambling/roulette/systems/` folder. If the `reviewUrl` is "2024-11-29-Split-the-Hole", then you should create the file `2024-11-29-Split-the-Hole.html`.
+
+You don't need to do much here. You can just use the following template:
+
+```
+---
+layout: roulette-system
+title: [SYSTEM_NAME_GOES_HERE] - Roulette System Review
+---
+```
+That's it.
