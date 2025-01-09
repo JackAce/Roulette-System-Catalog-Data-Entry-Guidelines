@@ -127,11 +127,19 @@ You should be recording the following values:
 Going back to the `reviewUrl` field, you want to create a file with a similar name in the `/gambling/roulette/systems/` folder. If the `reviewUrl` is "2024-11-29-Split-the-Hole", then you should create the file `2024-11-29-Split-the-Hole.html`.
 
 You don't need to do much here. You can just use the following template:
-
 ```
 ---
 layout: roulette-system
 title: [SYSTEM_NAME_GOES_HERE] - Roulette System Review
 ---
 ```
+for example
+
+```
+---
+layout: roulette-system
+title: Split the Hole - Roulette System Review
+---
+```
+
 That's it.
