@@ -35,3 +35,33 @@ You can copy a template of a Roulette System item from the following [Gist](http
 
 ![GitHub Gist of JSON Slug](img/200-gist-json-slug-600x580.png)
 
+## Inserting a new JSON element
+
+Insert the Gist into the correct `data` file. Systems are broken apart according to the year it aired. So, for this example, we would append the JSON slug into the file `_data/roulette-systems-2024.json`.
+
+The JSON goes into the Bracketed Array (`[]`) at the top of the file (assuming that the air date is more recent than any existing system). If you are inserting an older system, make sure you preserve the reverse chronological order (newest items on top).
+
+Make sure you update the fields to the appropriate value.
+
+* The `name` value should be the name specified in the GitHub Issue
+* The `airDate` value should be the date specified in the GitHub Issue
+* The `youtubeUrl` value should be the URL in the GitHub Issue
+* For `reviewUrl`, start with the `airDate` value and append the `name`, separated with a hypen (`-`) and using hyphens instead of spaces. Preserve any existing capitalization. Ignore any punctuation and do NOT put two hypens together. So the `name` "Split the Hole" for the `airDate` "2024-11-29" would result in the `reviewUrl` "2024-11-29-Split-the-Hole".
+* You can leave `rbaImageUrls` untouched with the single existing value.
+* For `bettingTiers`, I will show you how to generate the JSON that goes here later on.
+* For `systemType`, put the appropriate value if it is known. If it is *NOT* known, then leave this as "Other". Possible values include the following:
+    * Flat Bet
+    * Positive Progression
+    * Negative Progression
+    * Martingale
+    * Ladder
+    * Multi-Leg
+    * Other
+* The `buyIn` should be the Buy-in amount specified at the beginning of the video.
+* For `bets`, update the existing value `6969` with the size of the first bet of the system. If you can determine the other bets in the system, you can add them here with each value separated with a comma (`,`).
+* For the `rating`, you can update this with the rating that Alex gives at the end of the video. If Alex is not present and there is another presenter of the system, use that person's rating here instead. The valid values for the `rating` are "a" (Grapefruit), "b" (Peach), "c" (Plum), "d" (Eggplant), and "f" (Durian). Make sure you use the lowercase letter here. If you don't know the rating, just leave this value blank (`""`).
+* Leave the rest of the fields at the default value until you get to `spins`.
+
+## Betting -Tiers
+
+## Spins
