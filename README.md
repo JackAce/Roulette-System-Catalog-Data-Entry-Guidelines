@@ -10,7 +10,7 @@ The GitHub respository you should be working from is [staging.jackace.com](https
 
 ![GitHub Repository Issues](img/050-github-issues-600x300.png)
 
-The queue for systems that need to be added are found in the Issues tab for the [staging.jackace.com repository on GitHub](https://github.com/JackAce/staging.jackace.com/issues?q=is%3Aissue+is%3Aopen+Add+spin+data+sort%3Acreated-asc)).
+The queue for systems that need to be added are found in the Issues tab for the [staging.jackace.com repository on GitHub](https://github.com/JackAce/staging.jackace.com/issues?q=is%3Aissue+is%3Aopen+Add+spin+data+sort%3Acreated-asc).
 
 Filter this list on "Add spin data" and sort the list by oldest first.
 
