@@ -62,6 +62,11 @@ Make sure you update the fields to the appropriate value.
 * For the `rating`, you can update this with the rating that Alex gives at the end of the video. If Alex is not present and there is another presenter of the system, use that person's rating here instead. The valid values for the `rating` are "a" (Grapefruit), "b" (Peach), "c" (Plum), "d" (Eggplant), and "f" (Durian). Make sure you use the lowercase letter here. If you don't know the rating, just leave this value blank (`""`).
 * Leave the rest of the fields at the default value until you get to `spins`.
 
-## Betting -Tiers
+## Betting Tiers
+
+To generate the JSON used for the betting tier(s), you should use the [JackAce Roulette Bet Analyzer](https://rba.jackace.com/).
+Enter the bets as laid out by Alex at the beginning of the video. Click on the casino chip value and click on the bet being made.
+
+Once the bet is complete click on the curly brackets on the lower-right part of the screen. You may need to hide the GoogleAds at the bottom of the web page to see the text box that appears.
 
 ## Spins
