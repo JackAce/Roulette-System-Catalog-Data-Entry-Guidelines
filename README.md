@@ -65,8 +65,20 @@ Make sure you update the fields to the appropriate value.
 ## Betting Tiers
 
 To generate the JSON used for the betting tier(s), you should use the [JackAce Roulette Bet Analyzer](https://rba.jackace.com/).
+
+![Roulette Bet Analyzer](img/400-rba-full-600x682.png)
+
 Enter the bets as laid out by Alex at the beginning of the video. Click on the casino chip value and click on the bet being made.
 
+![Curly Brackets](img/405-rba-brackets.png)
+
 Once the bet is complete click on the curly brackets on the lower-right part of the screen. You may need to hide the GoogleAds at the bottom of the web page to see the text box that appears.
+
+![JSON Output](img/410-rba-json.png)
+
+Here's an example of the JSON generated for the "Double Street Martingale" bet ($125):
+    `{"wheelType":1,"wagers":{"x6-4-9":25,"x6-10-15":25,"x6-16-21":25,"x6-22-27":25,"x6-28-33":25}}`
+
+Copy the JSON and replace the JSON that is in the `bettingTiers` array.
 
 ## Spins
