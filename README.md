@@ -62,6 +62,27 @@ Make sure you update the fields to the appropriate value.
 * For the `rating`, you can update this with the rating that Alex gives at the end of the video. If Alex is not present and there is another presenter of the system, use that person's rating here instead. The valid values for the `rating` are "a" (Grapefruit), "b" (Peach), "c" (Plum), "d" (Eggplant), and "f" (Durian). Make sure you use the lowercase letter here. If you don't know the rating, just leave this value blank (`""`).
 * Leave the rest of the fields at the default value until you get to `spins`.
 
+Here's an example of what the JSON looks like for the given example:
+
+```
+    "name": "Split the Hole",
+    "airDate": "2024-11-29",
+    "youtubeUrl": "https://www.youtube.com/watch?v=FY20XCfKIh0",
+    "reviewUrl": "2024-11-29-Split-the-Hole",
+    "rbaImageUrls": [
+      "00-rba-0-800x768.png"
+    ],
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz1":60,"x12-doz3":60,"x2-17-20":15,"x2-0-00":15}}
+    ],
+    "systemType": "Flat Bet",
+    "buyIn": 500,
+    "bets": [
+      150
+    ],
+    "rating": "c",
+```
+
 ## Betting Tiers
 
 To generate the JSON used for the betting tier(s), you should use the [JackAce Roulette Bet Analyzer](https://rba.jackace.com/).
@@ -81,4 +102,12 @@ Here's an example of the JSON generated for the "Double Street Martingale" bet (
 
 Copy the JSON and replace the JSON that is in the `bettingTiers` array.
 
+Here's an example of the `bettingTiers` section of the JSON with two bets inserted:
+
+```
+     "bettingTiers": [
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":30}},
+      {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":70}}
+    ],
+```
 ## Spins
