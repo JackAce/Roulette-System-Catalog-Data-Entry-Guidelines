@@ -10,4 +10,5 @@ Filter this list on "Add spin data" and sort the list by oldest first.
 
 Click on the link for the issue to see the details.
 
+![GitHub Issue displaying system details](img/100-github-issue-600x196.png)
 
