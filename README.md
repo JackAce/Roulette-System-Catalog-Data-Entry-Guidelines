@@ -37,6 +37,8 @@ You can copy a template of a Roulette System item from the following [Gist](http
 
 ## Inserting a new JSON element
 
+Before you start working in the branch, make sure you have the latest version. If you're just editing the file on GitHub's website, you should be mostly fine, but don't go too long without saving. If I merge changes while you're working directly on the file, you may run into conflicts.
+
 Insert the Gist into the correct `data` file. Systems are broken apart according to the year it aired. So, for this example, we would append the JSON slug into the file `_data/roulette-systems-2024.json`.
 
 The JSON goes into the Bracketed Array (`[]`) at the top of the file (assuming that the air date is more recent than any existing system). If you are inserting an older system, make sure you preserve the reverse chronological order (newest items on top).
@@ -142,4 +144,6 @@ title: Split the Hole - Roulette System Review
 ---
 ```
 
-That's it.
+## Committing and Reporting
+
+After you commit your changes to the `feature/upworkupdates` branch, please notify me via [Upwork messaging](https://www.upwork.com/ab/messages/).
