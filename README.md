@@ -66,7 +66,7 @@ Make sure you update the fields to the appropriate value.
 
 Here's an example of what the JSON looks like for the given example:
 
-```
+```js
     "name": "Split the Hole",
     "airDate": "2024-11-29",
     "youtubeUrl": "https://www.youtube.com/watch?v=FY20XCfKIh0",
@@ -100,13 +100,15 @@ Once the bet is complete click on the curly brackets on the lower-right part of 
 ![JSON Output](img/410-rba-json.png)
 
 Here's an example of the JSON generated for the "Double Street Martingale" bet ($125):
-    `{"wheelType":1,"wagers":{"x6-4-9":25,"x6-10-15":25,"x6-16-21":25,"x6-22-27":25,"x6-28-33":25}}`
+```js
+    {"wheelType":1,"wagers":{"x6-4-9":25,"x6-10-15":25,"x6-16-21":25,"x6-22-27":25,"x6-28-33":25}}
+```
 
 Copy the JSON and replace the JSON that is in the `bettingTiers` array. If there are multiple betting tiers to define, then separate each one with a comma (`,`)
 
 Here's an example of the `bettingTiers` section of the JSON with two bets inserted:
 
-```
+```js
      "bettingTiers": [
       {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":30}},
       {"wheelType":1,"wagers":{"x12-doz2":20,"x12-doz3":70}}
