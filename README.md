@@ -7,6 +7,7 @@ This repository is the set of guidelines for updating the Roulette System Catalo
 * [Roulette System Queue (pick the oldest first)](https://github.com/JackAce/staging.jackace.com/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc)
 * [Roulette System JSON Template](https://gist.github.com/JackAce/45ffe199d1c9a58a8ceaf3a87ebbd0a4)
 * [Main Site - Roulette System Catalog](https://www.jackace.com/gambling/roulette/systems/)
+* [GitHub Repository and Branch (feature/upworkupdates) to be Updated](https://github.com/JackAce/staging.jackace.com/tree/feature/upworkupdates)
 
 ## Repository
 
