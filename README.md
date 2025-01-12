@@ -100,6 +100,15 @@ To generate the JSON used for the betting tier(s), you should use the [JackAce R
 
 Enter the bets as laid out by Alex at the beginning of the video. Click on the casino chip value and click on the bet being made.
 
+### Recording Betting Tiers for "Multi-Tier" Strategies
+
+**NOTE:** If this system is a "Multi-Tier" system, you *only* need to record the FIRST betting tier. A "Multi-Tier" system is a
+system where multiple bets increase or decrease according to how that individual bet performs.
+
+For example, you might have a system where you bet one unit each on Red and Even at the same time. If a bet loses, then you Double
+the bet. If a bet wins, then you reset to 1 unit. This can result in a TON of different permutations that would be nearly impossible
+to track. You only need to record the results for the first tier under `bettingTiers`.
+
 ![Curly Brackets](img/405-rba-brackets.png)
 
 Once the bet is complete click on the curly brackets on the lower-right part of the screen. You may need to hide the GoogleAds at the bottom of the web page to see the text box that appears.
