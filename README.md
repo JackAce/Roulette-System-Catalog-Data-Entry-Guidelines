@@ -9,6 +9,7 @@ This repository is the set of guidelines for updating the Roulette System Catalo
 * [Main Site - Roulette System Catalog](https://www.jackace.com/gambling/roulette/systems/)
 * [GitHub Repository and Branch (feature/upworkupdates) to be Updated](https://github.com/JackAce/dev.jackace.com/tree/feature/upworkupdates)
 * [Editing the Betting Tier image](betting-tier-image.md)
+* [Reviewing Roulette System Changes](reviewing-system-changes.md)
 
 ## Repository
 
