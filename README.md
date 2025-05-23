@@ -7,18 +7,18 @@ This repository is the set of guidelines for updating the Roulette System Catalo
 * [Roulette System Queue (pick the oldest first)](https://github.com/JackAce/staging.jackace.com/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc)
 * [Roulette System JSON Template](https://gist.github.com/JackAce/45ffe199d1c9a58a8ceaf3a87ebbd0a4)
 * [Main Site - Roulette System Catalog](https://www.jackace.com/gambling/roulette/systems/)
-* [GitHub Repository and Branch (feature/upworkupdates) to be Updated](https://github.com/JackAce/staging.jackace.com/tree/feature/upworkupdates)
+* [GitHub Repository and Branch (feature/upworkupdates) to be Updated](https://github.com/JackAce/dev.jackace.com/tree/feature/upworkupdates)
 * [Editing the Betting Tier image](betting-tier-image.md)
 
 ## Repository
 
-The GitHub respository you should be working from is [staging.jackace.com](https://github.com/JackAce/staging.jackace.com).
+The GitHub respository you should be working from is [dev.jackace.com](https://github.com/JackAce/dev.jackace.com).
 
 ## Issues (Work Queue)
 
 ![GitHub Repository Issues](img/050-github-issues-600x300.png)
 
-The queue for systems that need to be added are found in the Issues tab for the [staging.jackace.com repository on GitHub](https://github.com/JackAce/staging.jackace.com/issues?q=is%3Aissue+is%3Aopen+Add+spin+data+sort%3Acreated-asc).
+The queue for systems that need to be added are found in the Issues tab for the [dev.jackace.com repository on GitHub](https://github.com/JackAce/dev.jackace.com/issues?q=is%3Aissue+is%3Aopen+Add+spin+data+sort%3Acreated-asc).
 
 Filter this list on "Add spin data" and sort the list by oldest first.
 
