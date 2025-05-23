@@ -22,3 +22,5 @@ Here are the steps needed:
 ** The third image should be named `00-rba-2-800x768.png`, etc.
 * Put those file names in the `rbaImageUrls` property in the `roulette-systems-20xx.json` file
 
+![Misaligned Layer](img/system-image-010-misaligned-500x500.jpg)
+![Aligned Layer](img/system-image-020-aligned-500x500.jpg)
